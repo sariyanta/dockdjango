@@ -1,0 +1,10 @@
+# Vscode
+.vscode/
+
+# Node Modules
+node_modules/
+
+venv/
+.env
+
+data/
