@@ -1,0 +1,17 @@
+.grid {
+    display:grid;
+}
+.grid-inline {
+    display:inline-grid;
+}
+
+.flex {
+    display:flex;
+    &> * {
+      flex:1 1 0;  
+    }
+}
+
+.content-between {
+    justify-content:space-between;
+}

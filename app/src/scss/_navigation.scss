@@ -1,0 +1,14 @@
+.navigation {
+    .nav {
+        margin-block-start:0;
+        margin-block-end:0;
+        padding-inline-start: 0;
+        @extend .content-between;
+        
+        .nav-item {        
+            .nav-link {
+                color:$accent;
+            }
+        }
+    }
+}

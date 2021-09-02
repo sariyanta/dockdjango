@@ -16,3 +16,6 @@ venv/
 
 # Local PostgreSQL data
 data/
+
+# SRC 
+app/src/
