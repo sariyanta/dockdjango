@@ -61,7 +61,7 @@ function browsersyncReload(cb) {
 
 // Watch Task
 function watchTask() {
-    watch([paths.src.scss, paths.src.js + '/js/**/*.js'], series(scssTask, jsTask));
+    watch([paths.src.scss, paths.src.js + '/**/*.js'], series(scssTask, jsTask));
 }
 
 function buildTask() {
