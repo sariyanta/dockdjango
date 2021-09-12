@@ -20,8 +20,6 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls')),
-    path('bahasa/', include('bahasa.urls'))
 ]
 
 if settings.DEBUG:
