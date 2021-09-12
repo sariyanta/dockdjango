@@ -1,4 +1,11 @@
-# CAPSTONE
+# Dockerized Django
 
-## What is it about?
+## Dockerized Django app using Postgresql, Nginx reverse proxy
+
+```
+docker-compose build
+
+``` 
+
+
 
